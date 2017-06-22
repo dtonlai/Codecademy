@@ -1,0 +1,53 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.content {
+	z-index: 10;
+	padding-top: 69px;
+}
+
+.header {
+	display: flex;
+	height: 69px;
+	position: fixed;
+    justify-content: flex-end;
+	align-items: center;
+	z-index: 5;
+	width: 1200px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+}
+
+.header .logo {
+	height: 50px;
+	margin: 10px;
+}
+
+.jumbotron {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.message {
+	background-color: black;
+	width: 100%;
+}
+
+.feature-tea{
+	display: inline-block;
+}
+
+.tea {
+	height: 200px;
+	width: 300px;
+}
+
